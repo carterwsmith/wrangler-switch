@@ -1,0 +1,20 @@
+{
+  "name": "wrangler-switch",
+  "version": "1.0.0",
+  "description": "Keep several wrangler logins and switch between them",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.20.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "private": true,
+  "bin": {
+    "wsw": "./bin/wsw.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
